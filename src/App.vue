@@ -1,9 +1,10 @@
 <template>
   <div id="app">
+    <!-- <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <HeaderComp/>
     <MainComp/>
     <FooterComp/>
-
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import HeaderComp from './components/HeaderComp.vue'
 import MainComp from './components/MainComp.vue'
 import FooterComp from './components/FooterComp.vue'
+
 
 export default {
   name: 'App',
@@ -30,12 +32,4 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-*  {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-  list-style: none;
-}
-
 </style>
-
